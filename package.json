@@ -1,0 +1,13 @@
+{
+  "name": "image-optimization",
+  "version": "1.0.0",
+  "description": "Image optimization with node using sharp library",
+  "main": "index.js",
+  "repository": "https://github.com/ishan-me/image-optimize.git",
+  "author": "Ishan Manandhar",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "sharp": "^0.27.0"
+  }
+}
