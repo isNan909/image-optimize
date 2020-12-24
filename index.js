@@ -14,7 +14,7 @@ filenames.forEach((file) => {
   }
 
   let sh = sharp('./images/' + file);
-  if (fileFormat === 'jpg') {
+  if (fileFormat === 'jpg' || fileFormat === 'jpeg') {
     sh = sh.jpeg({ quality: 70 });
   } else if (fileFormat === 'png') {
     sh = sh.png({ quality: 70 });
